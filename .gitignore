@@ -1,1 +1,76 @@
+# ==========================================
+# :closed_lock_with_key: THE SHIELD (Security First)
+# ==========================================
+# NEVER upload your real secrets! 
+# Use a separate file like config_secrets.h or secrets.yaml locally.
+secrets.yaml
+secrets.h
+config_secrets.h
+*.env
+.env
+api_keys.txt
 
+# ==========================================
+# :robot: ARDUINO & ESP32 (Hardware Hub)
+# ==========================================
+# Ignore compiled binaries and temporary build files
+build/
+bin/
+*.elf
+*.bin
+*.hex
+*.o
+*.d
+*.a
+*.tmp
+*.bak
+
+# Ignore local Arduino IDE settings
+.vscode/
+.idea/
+.pio/
+__vm/
+
+# ==========================================
+# :snake: PYTHON (Raspberry Pi & Radar)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Don't upload 1000s of library files)
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+eggs/
+*.egg-info/
+
+# ==========================================
+# :house: HOME ASSISTANT (Base Station)
+# ==========================================
+# Databases and large logs
+*.db
+*.db-shm
+*.db-wal
+*.log
+home-assistant_v2.db
+OZW_Log.txt
+
+# Automated configs (GitHub doesn't need these)
+.storage/
+.cloud/
+known_devices.yaml
+entity_registry.yaml
+
+# ==========================================
+# :desktop: OS & SYSTEM (General Junk)
+# ==========================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
